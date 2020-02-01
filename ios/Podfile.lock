@@ -114,6 +114,10 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.9.0)
+  - TensorFlowLite (1.13.1)
+  - tflite (1.0.4):
+    - Flutter
+    - TensorFlowLite
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -122,6 +126,7 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - tflite (from `.symlinks/plugins/tflite/ios`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -144,6 +149,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - Protobuf
+    - TensorFlowLite
 
 EXTERNAL SOURCES:
   firebase_ml_vision:
@@ -154,6 +160,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
+  tflite:
+    :path: ".symlinks/plugins/tflite/ios"
 
 SPEC CHECKSUMS:
   Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
@@ -179,6 +187,8 @@ SPEC CHECKSUMS:
   image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  TensorFlowLite: 8b9dc4eb32eac0f8cb660c66bca7604da56dcc5a
+  tflite: a6911f4ac99be9c73c1dcffb1a5d54b3c56087a8
 
 PODFILE CHECKSUM: 68a8cb070a3d4cba9c0fdd326b056b18d299f233
 
